@@ -22,7 +22,7 @@ sys.path.append(parent_dir)
 def setup_api_keys():
     """Set up API keys in a centralized location"""
     # Gemini API key
-    gemini_api_key = "AIzaSyBX0M1VaDTRn71wCEZp6gmJHtMsawxzP6U"
+    gemini_api_key = "Add your GEMINI KEY"
     os.environ["GEMINI_API_KEY"] = gemini_api_key
     genai.configure(api_key=gemini_api_key)
     return {
